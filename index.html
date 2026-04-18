@@ -1,91 +1,29 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goonowa strona</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #555;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>GoonGoonGoon.fun</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="logoggg.png" alt="Logo" class="Logo">
+    <marquee class = "aura2" direction="left">WITAMY NA NASZEJ STRONIE!!!</marquee>
 
-<header>
-    <h1>GoonGoonGoon.fun</h1>
-    <p>Strona dla miłośników goonowania!</p>
-</header>
+    
 
-<nav>
-    <a href="#">Start</a>
-    <a href="#">TechnikiGooningu</a>
-    <a href="#">Kontakt</a>
-</nav>
+<h1 class="aura">EPSTEIN CLICKER!!!<div id="licznik">0 EPSTEINÓW</div></h1>
 
-<div class="container">
-    <div class="card">
-        <h2>Witaj!</h2>
-        <p>To jest przykładowa sekcja treści.</p>
-    </div>
-<img src="krac.jpeg" alt="Opis obrazka">
-    <div class="card">
-        <h2>Kolejna sekcja</h2>
-        <p>Możesz tutaj dodać dowolne informacje.</p>
-    </div>
-</div>
+<img src="epstein.png" class="obrazek" onclick="zwieksz()">
 
-<footer>
-    <p>© 2026 GoonCORP</p>
-</footer>
+<script>
+let liczba = 0;
+
+function zwieksz() {
+    liczba++;
+    document.getElementById("licznik").textContent = liczba + " EPSTEINÓW";
+}
+</script>
 
 </body>
 </html>

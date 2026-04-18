@@ -1,0 +1,47 @@
+html{
+    font-family: comicsansms, cursive, sans-serif;
+    margin: 20px;
+}
+
+.Logo {
+    width: 200px;
+    height: auto;
+}
+
+marquee {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    animation: zmianaKoloru2 3s infinite;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('angry-bird-angry-bird-red.png');
+    background-position: center;   /* wyśrodkowanie */
+}
+
+.aura {
+    font-size: 40px;
+    font-weight: bold;
+    animation: zmianaKoloru 3s infinite;
+}
+
+@keyframes zmianaKoloru {
+    0%   { color: red; }
+    25%  { color: blue; }
+    50%  { color: green; }
+    75%  { color: orange; }
+    100% { color: red; }
+}
+
+.aura2 {
+    animation: zmianaKoloru2 3s infinite;
+}
+
+@keyframes zmianaKoloru2 {
+    0%   { color: yellow; }
+    50%  { color: rgb(255, 0, 0); }
+    100% { color: yellow; }
+}

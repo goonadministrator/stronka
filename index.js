@@ -302,7 +302,7 @@ function initParentWindow () {
       removeHelloMessage()
       rainbowThemeColor()
       animateUrlWithEmojis()
-      speak('GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, GOONGOONGOON.FUN DOSKONAŁA ROZRYWKA, ')
+      speak('Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka, Gun gun gun .FUN doskonała rozrywka,  ')
     }
   })
 }

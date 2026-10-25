@@ -1,4 +1,4 @@
-# ptoszek.pl - Sptoszkuj kogoś!
+# goongoongoon.fun - gooning bez granic!
 
 ![goongoongoon.fun](./media/images/intro.gif)
 
